@@ -1,0 +1,81 @@
+/* Write your CSS here */
+
+.show-hide-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .show-hide-container {
+    width: 50%;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.button {
+  color: #dd1264;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 6px;
+  border-width: 0px;
+  padding: 8px;
+  width: 150px;
+  cursor: pointer;
+  outline: none;
+}
+
+.name-container {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .name-container {
+    flex-direction: column;
+    width: 150px;
+  }
+}
+
+.first-name-container {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .first-name-container {
+    margin-bottom: 10px;
+  }
+}
+
+.first-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: #fddddb;
+  border-radius: 8px;
+  width: 180px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .first-name {
+    width: 150px;
+    height: 80px;
+  }
+}
